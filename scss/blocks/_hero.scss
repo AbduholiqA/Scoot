@@ -1,9 +1,9 @@
 .hero {
     color: white;
-    margin-bottom: 60px;
+    padding-bottom: 160px;
 
     &-container {
-        background-image: url("../images/scooter-background.png"), linear-gradient(rgba(88, 88, 216));
+        background-image: url("../images/scooter-background.png"), linear-gradient(rgb(88, 88, 216));
         background-repeat: no-repeat;
         background-size: cover;
         height: 650px;
