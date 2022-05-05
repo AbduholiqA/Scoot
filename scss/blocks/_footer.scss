@@ -1,4 +1,8 @@
 // TOP PART
+.footer {
+    background: #495567;
+}
+
 .top-footer {
     background: #495567;
 
@@ -78,6 +82,65 @@
 
     &__link-apple:active,
     &__link-google:active {
+        opacity: 0.4;
+    }
+}
+
+// BOTTOM FOOTER
+
+.bottom-footer {
+    background: #333A44;
+
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        padding: 35px 0;
+    }
+
+    &__link-logo {
+        margin-right: 58px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        padding-left: 32px;
+    }
+
+    &__link:hover {
+        opacity: 0.8;
+    }
+
+    &__link:active {
+        color: #FCB72B;
+    }
+
+    &__list-socials {
+        display: flex;
+        list-style-type: none;
+    }
+
+    &__item-socials {
+        margin-left: 24px;
+    }
+
+    &__item-socials:hover {
+        opacity: 0.8;
+    }
+
+    &__item-socials:active {
         opacity: 0.4;
     }
 }
