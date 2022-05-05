@@ -426,7 +426,7 @@ img {
   background-color: transparent;
   border: 3px solid #FCB72B;
   color: #FCB72B;
-  padding: 14px 39px;
+  padding: 12px 36px;
 }
 
 .header__container {
@@ -436,7 +436,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 34px;
+  padding-top: 20px;
+  padding-bottom: 21px;
 }
 
 .navbar {
@@ -488,6 +489,66 @@ img {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.hero {
+  color: white;
+  margin-bottom: 60px;
+}
+
+.hero-container {
+  background-image: url("../images/scooter-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.hero-path {
+  position: absolute;
+  margin-top: 340px;
+}
+
+.hero-arrow {
+  position: absolute;
+  margin-top: 340px;
+  margin-left: 705px;
+}
+
+.hero__heading {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  width: 500px;
+  height: 112px;
+  margin-bottom: 40px;
+  margin-left: 165px;
+  padding-top: 153px;
+}
+
+.hero__desc {
+  margin: 0;
+  padding: 0;
+  width: 405px;
+  height: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  padding-top: 105px;
+  margin-left: 260px;
+}
+
+.hero a {
+  margin-left: 260px;
+  margin-top: 85px;
 }
 
 .logo:hover {
